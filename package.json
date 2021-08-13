@@ -1,20 +1,56 @@
 {
-  "name": "next-amplify",
-  "version": "0.1.0",
+  "name": "T3Shiva",
+  "description": "T3Shiva Headless Typo3 with NextJS, Bootstrap 4, Styled Components, Slick Carousel, React Headroom, etc",
+  "version": "1.0.0",
+  "author": "grayic",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next build && next export"
   },
   "dependencies": {
-    "next": "11.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@n8tb1t/use-scroll-position": "^1.0.43",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.0",
+    "google-map-react": "^2.1.9",
+    "lodash": "^4.17.15",
+    "next": "^11.0.1",
+    "next-fonts": "^1.5.1",
+    "next-pwa": "^5.2.23",
+    "polished": "^3.6.5",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.0.1",
+    "react-color": "^2.19.3",
+    "react-cookie-consent": "^6.2.4",
+    "react-countdown": "^2.2.1",
+    "react-countup": "^4.3.3",
+    "react-day-picker": "^7.4.8",
+    "react-dom": "^17.0.2",
+    "react-icons": "^3.10.0",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-markdown": "^5.0.3",
+    "react-masonry-css": "^1.0.16",
+    "react-player": "^2.3.1",
+    "react-scroll": "^1.8.1",
+    "react-select": "^3.1.0",
+    "react-slick": "^0.27.8",
+    "react-syntax-highlighter": "^15.4.3",
+    "react-tilt": "^0.1.4",
+    "sass": "^1.26.9",
+    "shortid": "^2.2.16",
+    "simple-react-lightbox": "^3.6.6",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5",
+    "write-json-file": "^4.3.0",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "babel-plugin-styled-components": "^1.10.7",
+    "imagemin-mozjpeg": "^9.0.0",
+    "next-optimized-images": "^2.6.2"
   }
 }

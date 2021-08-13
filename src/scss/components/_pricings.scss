@@ -1,0 +1,52 @@
+[data-pricing-dynamic][data-value-active="yearly"] {
+  .dynamic-value {
+    &:before {
+      display: inline-block;
+      content: attr(data-yearly);
+    }
+  }
+  [data-pricing-trigger] {
+    background: var(--primary);
+    span {
+      left: calc(100% - 33px);
+    }
+  }
+}
+[data-pricing-dynamic][data-value-active="monthly"] {
+  .dynamic-value {
+    &:before {
+      display: inline-block;
+      content: attr(data-monthly);
+    }
+  }
+}
+
+.dynamic-value {
+  &:before {
+    display: inline-block;
+    content: attr(data-active);
+  }
+}
+.static-value {
+  &:before {
+    display: inline-block;
+    content: attr(data-active);
+  }
+}
+
+.pricing-card {
+  background-color: $white;
+
+  &.bg-blue {
+    .small-title.text-red,
+    .text-blackish-blue,
+    .text-black,
+    .btn-green {
+      color: $white !important;
+    }
+
+    .border-top {
+      border-color: rgba(231, 233, 237, 0.13) !important;
+    }
+  }
+}
